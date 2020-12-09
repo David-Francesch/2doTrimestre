@@ -13,48 +13,11 @@ public class Alumnos {
         this.apellidos = apellidos;
         this.edad = edad;
         this.varon = varon;
-    }//Alumnos() Esto es un constructor
+    }//Alumnos() Esto es un constructor 
 
-    public Alumnos(String nombre) {
-        this.nombre = nombre;
+    @Override
+    public String toString() {
+        return "\n Nombre: " + nombre + "\n Apellidos: " + apellidos + "\n Edad: " + edad + "\n Es varon: " + varon;
     }
 
-    public Alumnos(int edad) {
-        this.edad = edad;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getApellidos() {
-        return apellidos;
-    }
-
-    public int getEdad() {
-        return edad;
-    }
-
-    public Boolean getVaron() {
-        return varon;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
-    }
-
-    public void setEdad(int edad) {
-        this.edad = edad;
-    }
-
-    public void setVaron(Boolean varon) {
-        this.varon = varon;
-    }
-    
-    
-    
 }

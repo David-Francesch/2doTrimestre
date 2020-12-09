@@ -38,17 +38,11 @@ public class EjercicioDeGrupo {
             System.out.println("No es grado superior");
         }
         
-        System.out.println("Alumno 1:");
-        System.out.println("Nombre: "+Alu1.nombre);
-        System.out.println("Apellidos: "+Alu1.apellidos);
-        System.out.println("Edad: "+Alu1.edad);
-        if(Alu1.varon = true){
-            System.out.println("Es varon");
-        }else{
-            System.out.println("Es mujer");
+        System.out.println("Alumno 1:"+Alu1.toString());
+        System.out.println("Alumno 2:"+Alu2.toString());
+        System.out.println("Alumno 3:"+Alu3.toString());
+        System.out.println("Alumno 4:"+Alu4.toString());
         
-            Field[] Alumnos = Alumnos.class.getMethod();
-    }
     
     }//main()
     
